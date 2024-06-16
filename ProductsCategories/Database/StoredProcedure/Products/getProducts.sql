@@ -1,0 +1,11 @@
+USE SHOPPING;
+GO
+
+CREATE OR ALTER PROCEDURE getProducts
+    @id INT
+AS
+BEGIN
+SELECT * FROM Product
+   
+END;
+GO

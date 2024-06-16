@@ -1,0 +1,11 @@
+USE SHOPPING;
+GO
+
+CREATE OR ALTER PROCEDURE deleteProduct( @id INT)
+   
+AS
+BEGIN
+  
+DELETE FROM Product WHERE id = @id;
+END;
+GO

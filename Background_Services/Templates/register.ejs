@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Jose's Shopping App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 100%;
+            margin: auto;
+            padding-bottom: 50px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        .header {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header img {
+            max-width: 150px;
+            height: auto;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333333;
+            margin-bottom: 15px;
+        }
+        .content h2 {
+            font-size: 28px;
+            color: #333333;
+            margin-bottom: 15px;
+        }
+        .login-btn {
+            background-color: crimson;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .link {
+            padding: 10px;
+            background-color: aqua;
+            color: white;
+            border-style: none;
+        }
+    </style>
+</head>
+<body>
+    <table class="container">
+        <tr>
+            <td class="header">
+                <img src="https://cdn.pixabay.com/photo/2015/12/05/08/25/fantasy-1077863_640.jpg" alt="Logo">
+                <h1 style="color: #000000; font-size: 36px; font-weight: bold;">Jose's Shopping</h1>
+            </td>
+        </tr>
+        <tr>
+            <td class="content">
+                <img src="data:image/webp;base64,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" alt="Image">
+                <p>Hello <strong><%=name%></strong>,</p>
+                <h2>Welcome to Jose's Shopping App</h2>
+                <p style="font-size: 18px; color: #333333;">We offer quality services at affordable prices!</p>
+                <a href="#" class="login-btn">Shop Now</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

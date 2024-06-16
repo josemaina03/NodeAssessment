@@ -1,0 +1,217 @@
+POST http://localhost:3000/auth/register
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+    "Name": "john doe",
+    "Email": "johnd@gmail.com",
+    "Password": "New@1234"
+}
+
+
+####
+
+POST http://localhost:3000/auth/register
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+Content-Type: application/json
+
+
+{
+    "Name": "Njenga Mwaniki",
+    "Email": "njengadavid112@gmail.com",
+    "Password": "Njenga@123"
+}
+####
+POST http://localhost:3000/auth/login
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+Content-Type: application/json
+
+{
+  
+    "Email": "njengadavid112@gmail.com",
+    "Password": "Njenga@123"
+}
+
+###
+
+GET http://localhost:3000/Products/5888b6e2-958f-4ba0-b8aa-2bb16eacb1da
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+
+
+# POST request to register the user
+POST http://localhost:3000/auth/register
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+    "Name": "john doe",
+    "Email": "johnd@gmail.com",
+    "Password": "New@1234"
+}
+
+### 
+
+# GET request to retrieve the user's information
+GET http://localhost:3000/auth/user?Email=johnd@gmail.com
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+####
+GET http://localhost:3000/auth/user/12345
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+###
+POST http://localhost:3000/auth/register
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+    "Name": "Joseph Muhia",
+    "Email": "josephmuhia257@gmail.com",
+    "Password": "Jose@1234"
+}
+####
+POST http://localhost:3000/auth/register
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+    "Name": "maggie",
+    "Email": "maggiegeorges254@gmail.com",
+    "Password": "Jose@12345"
+}
+###
+POST http://localhost:3000/auth/login
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+  
+    "Email": "josephmuhia257@gmail.com",
+    "Password": "Jose@1234"
+}
+
+###
+GET http://localhost:3000/categories
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+
+####
+
+POST http://localhost:3000/categories
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+    "Name": "Book"
+}
+###
+POST http://localhost:3000/products
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+Content-Type: application/json
+
+
+{
+    "name": "Television",   
+    "price":"26000.00",
+    "categoryId":"1"
+}
+
+###
+GET http://localhost:3000/products/1234567890QwertyuiopasdfghjklzxcvbnM*
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+### Insert Product 1
+POST http://localhost:3000/products
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+    "name": "Product1",
+    "price": 10.99,
+    "categoryId": 1
+}
+
+###
+
+### Insert Product 2
+POST http://localhost:3000/products
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+    "name": "Product2",
+    "price": 15.49,
+    "categoryId": 2
+}
+
+###
+
+### Insert Product 3
+POST http://localhost:3000/products
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+    "name": "Product3",
+    "price": 7.99,
+    "categoryId": 1
+}
+
+###
+
+### Insert Product 4
+POST http://localhost:3000/products
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+    "name": "Product4",
+    "price": 22.50,
+    "categoryId": 3
+}
+
+###
+
+### Insert Product 5
+POST http://localhost:3000/products
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+    "name": "Berry",
+    "price": 5.75,
+    "categoryId": 2
+}
+####
+POST http://localhost:3000/categories
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+    "Name": "Art"
+}
+###
+POST http://localhost:3000/products
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWIiOiJlYjY3YTllYi1mNjY3LTRlNDgtYTFkYy0wYWY2Mjg0M2ExMjQiLCJOYW1lIjoiTmplbmdhIE13YW5pa2kiLCJpYXQiOjE3MTg1NDY0MjEsImV4cCI6MTcxODU1MzYyMX0.-2TMjT3ZRcGEBfw5jgn7uX-POBURPEkjNS7-csKvv4Q"
+
+Content-Type: application/json
+
+{
+    "name": "Product6",
+    "price": 22.50,
+    "categoryId": 6
+}
